@@ -10,8 +10,8 @@ var request = require('request').defaults({
     rp = require('request-promise-native'),
     async = require('async');
 
-var SCRAPOXY_PROXY = 'http://104.154.22.128:8888';
-var SCRAPOXY_UI = 'http://104.154.22.128:8889';
+var SCRAPOXY_PROXY = '';
+var SCRAPOXY_UI = '';
 var SCRAPOXY_MAXIMUM_INSTANCE_COUNT = 40; // this should be same as set in scrapoxy configs, 120 seconds recommended
 var SCRAPOXY_PASSWORD = 'samerz';
 
